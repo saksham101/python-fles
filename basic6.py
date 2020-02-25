@@ -1,0 +1,5 @@
+r = input("enter the radius of thr circle")
+r = int(r)
+area = 3.14 * pow(r,2)
+area = float(area)
+print("area of thr circle is",area)
