@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form action="http://www.facebook.com" method="GET">
+        <div>
+        <label for = "fn">First Name</label>
+        <input id = "fn" type = "text" placeholder="First Name" required>
+        <label for = "ln">Last Name</label>
+        <input id = "ln" type = "text" placeholder="Last Name">
+    </div>
+    <div>
+        <label for = "male">Male</label>
+        <input id = "male" type = "radio" name="gender">
+        <label for = "female">Female</label>
+        <input id = "female" type = "radio" name="gender">
+        <label for = "other">other</label>
+        <input id = "other" type = "radio" name="gender">
+    </div>
+    <div>
+        <label for = "mail">E-mail:</label>
+        <input id = "mail" type = "email" placeholder="E-mail" required>   
+        <label for = "pass">Password:</label>
+        <input id = "pass" type = "password" placeholder="Password" pattern=".{5,10}" required title="Please enter between 5 to 10 chacters">
+    </div>
+    <div>
+        <label for="DOB">Birthday:</label>
+        <input type="date" id="DOB">
+    </div>
+    <div>
+    <p>I agree to the information above </p>
+    <input type="checkbox">
+    </div>
+    <input type="submit">
+</form>
+</body>
+</html>

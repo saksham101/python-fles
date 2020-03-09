@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Register</title>
+</head>
+<body>
+    <form action="formwd.css" method="POST">
+    <table border="1">
+        <caption><b><i><h1>Registeration Form</h1></i></b></caption>
+        <!-- <tr>
+            <td>
+                <label for="Profile">Profile :</label>
+                <input type="file" id="Profile">
+            </td>
+        </tr> -->
+        <tr>
+            <td>
+                <div>
+                    <label for = "fn">First Name :</label>
+                    <input id = "fn" type = "text" placeholder="First Name" required>
+                    <label for = "ln">Last Name :</label>
+                    <input id = "ln" type = "text" placeholder="Last Name">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <label>Gender : </label>
+                    <label for = "male">Male</label>
+                    <input id = "male" type = "radio" name="Gender">
+                    <label for = "female">Female</label>
+                    <input id = "female" type = "radio" name="Gender">
+                    <label for = "other">other</label>
+                    <input id = "other" type = "radio" name="Gender">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <label for = "email">E-mail:</label>
+                    <input id = "email" type = "email" placeholder="E-mail" required>   
+                    <label for = "pass">Password:</label>
+                    <input id = "pass" type = "password" placeholder="Password" pattern=".{5,10}" required title="Please enter between 5 to 10 chacters">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <label for="DOB">DOB</label>
+                    <input id = "DOB" type = "date" required>
+                </div>
+            </td>
+        </tr>
+        <!-- <tr>
+            <td>
+                <div>
+                    <input type="checkbox" id="box" required>
+                    <label for="box">I agree to the information above</label>
+                </div>
+            </td>
+        </tr> -->
+        <tr>
+            <td>
+                <input type="submit" value="insert">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
